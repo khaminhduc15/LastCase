@@ -1,0 +1,563 @@
+* {
+  margin: 0;
+  font-family: 'Domine', serif;
+  /* background: rgb(225, 231, 236); */
+}
+
+/* header */
+.header {
+  background: rgb(238, 241, 248);
+  padding: 20px 100px;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo i {
+  box-sizing: border-box;
+  padding: 15px;
+  background: rgb(27, 171, 228);
+  border-radius: 15px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  width: 75px;
+  margin-right: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-right button {
+  border-radius: 10px;
+}
+
+#menuBtn {
+  width: 50px;
+  height: 50px;
+  background: rgb(27, 171, 228);
+  text-align: center;
+  position: fixed;
+  right: 30px;
+  top: 15px;
+  border-radius: 3px;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0;
+}
+
+#menuBtn img {
+  width: 20px;
+  margin-top: 15px;
+}
+
+/* title */
+.title {
+  background: rgb(238, 241, 248);
+  padding: 50px 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title-text {
+  margin-right: 50px;
+}
+
+.title-text h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.text>span {
+  font-size: 20px;
+  padding: 0 5px 0 5px;
+  background: white;
+  color: rgb(27, 171, 228);
+}
+
+.text>p {
+  opacity: 0.7;
+}
+
+.text>button {
+  width: 200px;
+  border-radius: 20px;
+}
+
+/* video */
+.video {
+  background: rgb(238, 241, 248);
+  padding: 50px 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+}
+
+.video1 {
+  flex-basis: 75%;
+  height: 600px;
+}
+
+.video1>img {
+  width: 100%;
+  height: 100%;
+}
+
+.video-text {
+  flex-basis: 20%;
+  margin: auto;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text1>h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(27, 171, 228);
+}
+
+/* feature */
+.feature {
+  background: rgb(238, 241, 248);
+  padding: 50px 200px;
+}
+
+.title-feature {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title-feature>h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.title-feature>p {
+  opacity: 0.7;
+}
+
+.card-item {
+  box-sizing: border-box;
+  padding: 10px;
+  background: white;
+}
+
+.card-item h5 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.card-item p {
+  font-size: 12px;
+}
+
+.category-price {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.category-card p {
+  box-sizing: border-box;
+  border: 1px solid;
+  padding: 0 10px;
+  background: rgb(225, 231, 236);
+  border-radius: 10px;
+}
+
+.price-card p {
+  color: rgb(27, 171, 228);
+}
+
+.lesson-student {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  opacity: 0.7;
+}
+
+.star-next {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.star i {
+  color: rgb(28, 118, 235);
+}
+
+.star p {
+  opacity: 0.8;
+}
+
+.next-card i {
+  border-radius: 50px;
+  background: rgb(225, 231, 236);
+  padding: 8px;
+}
+
+/* statistical */
+.statistical {
+  background: rgb(238, 241, 248);
+  padding: 50px 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.statistical-left {
+  flex-basis: 40%;
+}
+
+.statistical-left h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 5px 5px;
+}
+
+.statistical-left>p {
+  padding: 5px 5px;
+  font-size: 15px;
+}
+
+.numbers-statistical {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.numbers-statistical h1 {
+  color: rgb(27, 171, 228);
+}
+
+.number {
+  margin-right: 10px;
+  padding: 3px 3px;
+  text-align: center;
+}
+
+.statistical-right {
+  flex-basis: 40%;
+}
+
+.title-statistical-1,
+.title-statistical-2,
+.title-statistical-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-statistical-right {
+  margin-left: 10px;
+}
+
+.text-statistical-right p {
+  font-weight: bold;
+}
+
+.title-statistical-1>img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(158, 224, 103);
+}
+
+.title-statistical-2>img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(131, 76, 202);
+}
+
+.title-statistical-3>img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(113, 178, 238);
+}
+
+.statistical-item>p {
+  font-size: 15px;
+}
+
+/* best-book */
+.best-book {
+  background: rgb(238, 241, 248);
+  padding: 50px 200px;
+}
+
+.title-best-book {
+  text-align: center;
+}
+
+.title-best-book h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.title-best-book p {
+  font-size: 15px;
+}
+
+.carousel-item {
+  display: none;
+}
+
+.carousel-item .row .col-md-3 img {
+  box-sizing: border-box;
+  padding: 10px;
+  background: white;
+  border-radius: 25px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(151, 149, 149, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: rgb(113, 178, 238);
+}
+
+
+/* more courses */
+.more-courses {
+  background: rgb(238, 241, 248);
+  padding: 50px 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.title-more-courses {
+  flex-basis: 40%;
+  margin-right: 50px;
+}
+
+.title-more-courses h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.title-more-courses p {
+  font-size: 15px;
+}
+
+.title-more-courses h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.title-more-courses button {
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.check {
+  box-sizing: border-box;
+  padding: 3px;
+  border: 1px solid;
+  border-radius: 50px;
+  background: rgb(113, 178, 238);
+  margin-left: 10px;
+}
+
+.img-more-courses {
+  flex-basis: 50%;
+  margin-left: 50px;
+}
+
+.img-team {
+  position: relative;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.img-woman {
+  position: absolute;
+  top: 150px;
+  left: -80px;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+
+/* register */
+.register {
+  background: rgb(238, 241, 248);
+  padding: 50px 200px;
+}
+
+.register-box {
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+  border-radius: 30px;
+  background: linear-gradient(to right, rgb(3, 77, 161), rgb(113, 178, 238));
+}
+
+.text-register {
+  flex-basis: 60%;
+}
+
+.text-register h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.text-register p {
+  font-size: 15px;
+  color: white;
+}
+
+.btn-register {
+  flex-basis: 40%;
+  text-align: center;
+}
+
+.btn-register button {
+  color: black;
+  background: white;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  font-size: 15px;
+}
+
+/* footer */
+.footer {
+  background: rgb(238, 241, 248);
+  padding: 50px 200px;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-box1 {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-box2 {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.learning-footer {
+  flex-basis: 45%;
+}
+
+.category-footer {
+  flex-basis: 45%;
+}
+
+.useful-footer {
+  flex-basis: 45%;
+}
+
+.contact-footer {
+  flex-basis: 45%;
+}
+
+.title-footer i {
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 10px;
+  background: rgb(113, 178, 238);
+}
+
+.title-footer h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.content-footer p {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.text-foot {
+  text-align: center;
+  font-size: 10px;
+  opacity: 0.7;
+}
